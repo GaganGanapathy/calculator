@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 s
@@ -5,6 +6,16 @@ class App extends Component {
     constructor(props){
         super(props)
 
+=======
+import React, {Component} from 'react';
+import Button from './components/button';
+import './style.css';
+
+class App extends Component {
+    constructor(props){
+        super(props)
+
+>>>>>>> 7849853 (calculator button)
         this.state={
             current:'0',
             previous:[],
@@ -12,6 +23,7 @@ class App extends Component {
         }
     }
 
+<<<<<<< HEAD
     reset = () =>{
         this.setState({current: '0', previous: [], nextIsReset: false})
     }
@@ -54,6 +66,9 @@ class App extends Component {
             {current, previous: [], nextIsReset: true}
         );
        
+=======
+   
+>>>>>>> 7849853 (calculator button)
     }
 
     render(){
